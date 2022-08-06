@@ -2,6 +2,14 @@
 filetype plugin on
 filetype indent on
 
+" Set syntax on
+syntax on
+
+set t_Co=256
+
+" Use highlighted search
+set hls
+
 " Use spaces instead of tabs
 set expandtab
 
@@ -21,7 +29,7 @@ set mouse=a
 
 " Show tabs
 set list
-set listchars=tab:>-
+    set listchars=tab:>-
 
 " Show whitespaces at the end of a line
 set listchars+=trail:·
@@ -30,3 +38,6 @@ set listchars+=trail:·
 set autoindent
 set smartindent
 
+" Set colour scheme
+    colorscheme badwolf
+    let g:badwolf_darkgutter = 1
