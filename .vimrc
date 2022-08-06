@@ -13,3 +13,6 @@ set tabstop=4
 
 " Show line numbers
 set number
+
+" Allow mouse usage
+set mouse=a
