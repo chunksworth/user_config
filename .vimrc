@@ -4,15 +4,29 @@ filetype indent on
 
 " Use spaces instead of tabs
 set expandtab
+
 " Be smart when using tabs ;)
 set smarttab
 
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
 
 " Show line numbers
 set number
 
 " Allow mouse usage
 set mouse=a
+
+" Show tabs
+set list
+set listchars=tab:>-
+
+" Show whitespaces at the end of a line
+set listchars+=trail:·
+
+" Use smart indenting
+set autoindent
+set smartindent
+
